@@ -13,10 +13,18 @@
 		String mid = request.getParameter("memberId");
 		String mpw = request.getParameter("memberPw");	
 		String mname = request.getParameter("memberName");	
-		String mphone = request.getParameter("memberPhone");	
-	
-	
+		String mphone = request.getParameter("memberPhone");			
 	%>
+
+	<h2>회원정보 확인</h2>
+	<hr>
+	ID : <%= mid %><br><br>
+	PASSWORD : <%= mpw %><br><br>
+	NAME : <%= mname %><br><br>
+	PHONE : <%= mphone %>
+	
+
+
 
 </body>
 </html>
